@@ -8,7 +8,7 @@ This is a Telegram URL Upload Bot!
 """
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
-    UPGRADE_TEXT = "<b>👉 Create own Clone Bot.. </b>  /help for Details"
+    UPGRADE_TEXT = "<b>👉 Create own Clone Bot.. </b>"
     FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
 URL | filename | username | password"""
@@ -17,9 +17,9 @@ URL | filename | username | password"""
     UPLOAD_START = "trying to upload"
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.5GB due to Telegram API limitations."
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "Please rate me if you find me useful. Join : @TGBotsZ"
-    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds. \nJoin : @TGBotsZ \nUploaded in {} seconds."
-    NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "Please rate me if you find me useful."
+    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds.\nUploaded in {} seconds."
+    NOT_AUTH_USER_TEXT = ""
     NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://telegram.dog/ThankTelegram'>@SpEcHlDe</a>"
     SAVED_CUSTOM_THUMB_NAIL = "Custom video / file thumbnail saved. This image will be used in the video / file."
     DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Custom thumbnail cleared succesfully."
@@ -29,11 +29,7 @@ URL | filename | username | password"""
     NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail found."
     NO_VOID_FORMAT_FOUND = "ERROR...\n<b>YouTubeDL</b> said: {}"
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
-    CURENT_PLAN_DETAILS = """Current plan details
---------
-Telegram ID: <code>{}</code>
-Plan name: Free Cloned User
-Expires on: 31/12/2020"""
+    CURENT_PLAN_DETAILS = """"""
     HELP_USER = """Hai am URL Uploader bot..
     
 1. Send url (Link|New Name with Extension).
@@ -43,9 +39,6 @@ Expires on: 31/12/2020"""
    DFile  - Give File with Screenshots
    Video  - Give File as video without Screenshots
    DFile  - Give File without Screenshots
-
---------
-Send /me to know current plan details
 
 """
     REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link"
